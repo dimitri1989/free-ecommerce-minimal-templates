@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background:url(../img/pxfuel.jpg)no-repeat;
+    background-size: 100% 100%;
+ 
+}
+
+.text h3{
+    font-size: 40px!important;
+    color: rgb(255, 127, 170)!important;
+}
+form{
+    max-width: 559px!important;
+    width: 100%;
+    height: 60vh;
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid #000;
+    
+}
+.login{
+    color: #000;
+    text-align: center;
+    font-family: Righteous;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+input{
+    width: 100%;
+}
+input[type=text]{
+    color: rgba(0, 0, 0, 0.50)!important;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 125% */
+    padding: 14px;
+}
+input[type=password]{
+    color: rgba(0, 0, 0, 0.50)!important;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 125% */
+    padding: 14px;
+}
+.btn{
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #FFF;
+    width: 117px;
+    color: #000;
+    text-align: center;
+    font-family: Red Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn:hover{
+    background:#dee9f1;
+    border-radius:10px;
+    transition: background-color 0.5s ease;
+    transition: border-radius 0.5s ease;
+}
+.show{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding-right: 10px;
+}
+.margin{
+    
+    margin-bottom: 0!important;
+}
+.margin2{
+    margin-top: 3rem!important;
+}
